@@ -28,6 +28,3 @@ This is a simple bubbleGame where user can increase it's focus by doin' a simple
 
 Contributions are welcome! If you  want to add new features, feel free to submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
