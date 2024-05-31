@@ -7,21 +7,28 @@
     <link rel="stylesheet" href="style.css">
     <title>Menta</title>
 </head>
-<body class="">
-    <div id="main" class="w-full h-full bg-zinc-200">
-        <div id="hero" class="relative">
-            <div id="cursor" class="h-6 w-6 bg-black top-0 left-0 rounded-full fixed"></div>
+<body>
+    <div id="container">
+        <div id="panel">
+            <div id="panelTop">
+                <div class="elem">
+                    <h4>Hits:</h4>
+                    <div class="box" id="hitsBox">0</div>
+                </div>
+                <div class="elem">
+                    <h4>Timer:</h4>
+                    <div class="box" id="timerBox">60</div>
+                </div>
+                <div class="elem">
+                    <h4>Score:</h4>
+                    <div class="box" id="scoreBox">0</div>
+                </div>
+            </div>
+            <div id="panelBottom">
+                <button>Start Game</button>
+            </div>
         </div>
-    
-
-
-
-
-
-
     </div>
-
-
     <script src="script.js"></script>
 </body>
 </html>
