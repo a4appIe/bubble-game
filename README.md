@@ -17,7 +17,6 @@ This is a simple bubbleGame where user can increase it's focus by doin' a simple
     ```
 
 ## Usage 
-### Run these commands in different terminal/command prompt tabs.
 
 1. Run the code:
 
