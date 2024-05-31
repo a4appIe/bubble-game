@@ -1,8 +1,8 @@
-var timer = 60;
-        var score = 0;
-        var num;
-        var bubble = document.querySelector("bubble");
-        var hit;
+let timer = 60;
+        let score = 0;
+        let num;
+        let bubble = document.querySelector("bubble");
+        let hit;
 
         document.querySelector("button").addEventListener("click", function () {
             setTimeout(function () {
@@ -33,9 +33,9 @@ var timer = 60;
         }
 
         function makeBubbles() {
-            var bubbles = "";
+            let bubbles = "";
             for (i = 0; i < 189; i++) {
-                var randomNumber = Math.floor(Math.random() * 10)
+                let randomNumber = Math.floor(Math.random() * 10)
                 bubbles += `<div class='bubble'>${randomNumber}</div>`;
             }
             document.querySelector("#panelBottom").innerHTML = bubbles;
@@ -47,7 +47,7 @@ var timer = 60;
         }
 
         function click() {
-            var pnlbtm = document.querySelector("#panelBottom");
+            let pnlbtm = document.querySelector("#panelBottom");
             pnlbtm.addEventListener("click", function (details) {
                 num = Number(details.target.textContent);
                 if (num === hit) {
