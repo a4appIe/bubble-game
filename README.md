@@ -19,7 +19,7 @@ This is a simple bubbleGame where user can increase it's focus by doin' a simple
 ## Usage 
 ### Run these commands in different terminal/command prompt tabs.
 
-1. Run the server executable:
+1. Run the code:
 
    ```Use live server to run the code or host it on a server```
 
