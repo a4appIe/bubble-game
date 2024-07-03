@@ -24,6 +24,9 @@ This is a simple bubbleGame where user can increase it's focus by doin' a simple
 
 2. You will see a button to start the game. Click it and start playing.
 
+## Live here 👇
+[Click here](https://a4appie.github.io/bubble-game/)
+
 ## Contributing
 
 Contributions are welcome! If you  want to add new features, feel free to submit a pull request.
